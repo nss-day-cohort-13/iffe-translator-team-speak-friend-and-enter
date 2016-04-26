@@ -1,12 +1,12 @@
 var translate = (function(translate) {
-	var lexicon = {
-		keyOne: valueOne,
-		keyTwo: valueTwo,
-		keyThree: valueThree,
-	}
+  var lexicon = {
+    keyOne: valueOne,
+    keyTwo: valueTwo,
+    keyThree: valueThree,
+  }
 
-translate.portugese = function(inputWord) {
-	return lexicon.inputWord
+translate.portuguese = function(inputWord) {
+  return lexicon.inputWord
 }
-	return translate;
+  return translate;
 }(translate));
