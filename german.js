@@ -1,3 +1,6 @@
+//**********//GERMAN//**********//
+
+//AUGMENTING IIFE FOR GERMAN TRANSLATIONS//
 var translate = function(translate) {
 
 	var lexicon = {
