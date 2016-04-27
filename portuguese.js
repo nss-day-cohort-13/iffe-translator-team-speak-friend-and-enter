@@ -1,3 +1,6 @@
+//**********//PORTUGUESE//**********//
+
+//AUGMENTING IIFE FOR PORTUGUESE TRANSLATIONS//
 var translate = function(translate) {
 
   var lexicon = {
