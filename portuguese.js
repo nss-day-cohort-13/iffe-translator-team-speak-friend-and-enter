@@ -5,7 +5,8 @@ var translate = (function(translate) {
   }
 
 translate.portuguese = function(inputWord) {
-  return lexicon.inputWord
+	return(lexicon[inputWord]);
 }
-  return translate;
-}(translate));
+
+return translate;
+}(translate);

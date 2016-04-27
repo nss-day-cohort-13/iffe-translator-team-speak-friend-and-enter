@@ -1,10 +1,3 @@
 var translate = function() {
-  return translate;
+  return {};
 }
-
-
-var translate = getElementById()
-
-translate.addEventListener("click", fucntion() {
-  return translate.portuguese(english.value)
-})
