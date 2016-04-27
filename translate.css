@@ -1,4 +1,51 @@
-.translateButton {
+* {
+  box-sizing: border-box;
+}
+
+/* Input Field Style */
+
+input[type="text"] {
+  border: 2px solid #afbdcf;
+  border-radius: 5px;
+  height: 47px;
+  width:300px;
+  color: #000000;
+  font-size: 14px;
+  padding-left: 20px;
+  box-shadow: none;
+}
+
+/*Awesome English Input Field*/
+input:focus + label, input:valid + label{
+  font-size: 12px;
+  color: red;
+  top: -5px;
+  left:10px;
+  background: #ffffff;
+  padding: 0px 5px 0px 5px;
+}
+
+.input_wrap {
+  width:auto; height:auto; position:relative;
+}
+
+.input_wrap label {
+  font-family:arial;
+  font-size:16px;
+  color: #afbdcf;
+  padding: 14px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition:0.2s ease all;
+  pointer-events: none;
+}
+
+input[type="text"]:focus {outline:none;}
+
+
+/*Awesome Input Button*/
+#translateButton {
   box-sizing: border-box;
   -webkit-appearance: none;
      -moz-appearance: none;
@@ -27,23 +74,19 @@
   font-weight: 700;
 }
 
-
-.translateButton:hover, .translateButton:focus {
+#translateButton:hover, #translateButton:focus {
   color: green;
   outline: 0;
 }
 
-
-
-
-.translateButton {
+#translateButton {
   border-color: #3498db;
   color: #fff;
   box-shadow: 0 0 40px 40px #3498db inset, 0 0 0 0 #3498db;
   -webkit-transition: all 150ms ease-in-out;
   transition: all 150ms ease-in-out;
 }
-.translateButton:hover {
+
+#translateButton:hover {
   box-shadow: 0 0 10px 0 #3498db inset, 0 0 10px 4px #3498db;
 }
-
