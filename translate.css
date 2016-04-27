@@ -1,6 +1,12 @@
+body {
+  width: 40%;
+  margin: 50px auto 0;
+  text-align: center;
+}
 * {
   box-sizing: border-box;
 }
+
 
 /* Input Field Style */
 
@@ -13,6 +19,7 @@ input[type="text"] {
   font-size: 14px;
   padding-left: 20px;
   box-shadow: none;
+  margin-bottom: 20px;
 }
 
 /*Awesome English Input Field*/
@@ -65,7 +72,7 @@ input[type="text"]:focus {outline:none;}
   font-size: 1rem;
   font-weight: 400;
   line-height: 1;
-  margin: 20px;
+  margin: 20px auto;
   padding: 1.2em 2.8em;
   text-decoration: none;
   text-align: center;
