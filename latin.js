@@ -1,3 +1,6 @@
+//**********//LATIN//**********//
+
+//AUGMENTING IIFE FOR LATIN TRANSLATIONS//
 var translate = function(translate) {
 
 	var lexicon = {
