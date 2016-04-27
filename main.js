@@ -1,15 +1,12 @@
-// var englishInput = ""
-// var translateButton = ""
-// var outputDiv = ""
-// var outputLanguageSelect = ""
-
-// translateButton.addEventListener("click", function(event)) {
-//   translate.outputLanguageSelect(englishInput.value);
-// }
-// englishInput.addEventListener("keyup", function(event) {
-//   if (event.which === 13 || event.keycode === 13) {
-//     if(englishInput.value !== "") {
-//       translate.outputLanguageSelect(englishInput.value);
-//     }
-//   }
-// });
+document.getElementById("translateButton").addEventListener("click", function(event) {
+ 	document.getElementById("outputDiv").innerHTML = 
+ 		`<h2>${translate[event.target.parentNode.querySelector("#outputLanguageSelect").value.toLowerCase()]
+ 			(event.target.parentNode.querySelector("#englishInput").value.toLowerCase())}</h2>`;
+});
+document.getElementById("englishInput").addEventListener("keypress", function(event) {
+  if (event.which === 13 || event.keycode === 13) {
+  	document.getElementById("outputDiv").innerHTML = 
+  		`<h2>${translate[event.target.parentNode.querySelector("#outputLanguageSelect").value.toLowerCase()]
+  			(event.target.parentNode.querySelector("#englishInput").value.toLowerCase())}</h2>`;
+  };
+});

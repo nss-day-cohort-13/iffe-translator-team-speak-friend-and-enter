@@ -1,11 +1,10 @@
 var translate = function(translate) {
 	
 	var lexicon = {
-		keyOne: 'valueOne',
-		keyTwo: 'valueTwo',
-		keyThree: 'valueThree'
+		keyone: 'GERMAN_1',
+		keytwo: 'GERMAN_2',
+		keythree: 'GERMAN_3'
 	};
-
 translate.german = function(inputWord) {
 	return(lexicon[inputWord]);
 }
