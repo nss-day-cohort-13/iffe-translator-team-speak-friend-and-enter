@@ -1,12 +1,14 @@
-var translate = (function(translate) {
+var translate = function(translate) {
+	
 	var lexicon = {
-		keyOne: valueOne,
-		keyTwo: valueTwo,
-		keyThree: valueThree,
-	}
+		keyOne: 'valueOne',
+		keyTwo: 'valueTwo',
+		keyThree: 'valueThree'
+	};
 
 translate.latin = function(inputWord) {
-	return lexicon.inputWord
+	return(lexicon[inputWord]);
 }
-	return translate;
-}(translate));
+
+return translate;
+}(translate);
