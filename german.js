@@ -1,10 +1,10 @@
 var translate = function(translate) {
-	
+
 	var lexicon = {
-		keyone: 'GERMAN_1',
-		keytwo: 'GERMAN_2',
-		keythree: 'GERMAN_3'
+		"merry christmas": "Fröhliche Weihnachten",
+    "happy new year": "Frohes neues Jahr"
 	};
+
 translate.german = function(inputWord) {
 	return(lexicon[inputWord]);
 }
