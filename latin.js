@@ -1,9 +1,9 @@
 var translate = function(translate) {
 	
 	var lexicon = {
-		keyOne: 'valueOne',
-		keyTwo: 'valueTwo',
-		keyThree: 'valueThree'
+		keyone: 'LATIN_1',
+		keytwo: 'LATIN_2',
+		keythree: 'LATIN_3'
 	};
 
 translate.latin = function(inputWord) {
